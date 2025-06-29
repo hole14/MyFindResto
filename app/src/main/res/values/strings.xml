@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">MyFindResto</string>
     <string name="api_key">AIzaSyBKFdVC-UwhCuV6J9r0wmX3iCg1VCK3zDM</string>
+    <string name="appbar">Resto Finder</string>
+    <string name="search">Restoran…</string>
 </resources>
