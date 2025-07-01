@@ -3,4 +3,11 @@
     <string name="api_key">AIzaSyBKFdVC-UwhCuV6J9r0wmX3iCg1VCK3zDM</string>
     <string name="appbar">Resto Finder</string>
     <string name="search">Restoran…</string>
+    <string name="nama_restoran">Nama Restoran</string>
+    <string name="alamat">Alamat</string>
+    <string name="jam_buka">Jam Buka</string>
+    <string name="jarak_rating">5 Km | Rating 4.5</string>
+    <string name="rekomendasi">Rekomendasi</string>
+    <string name="termurah">Termurah</string>
+    <string name="terdekat">Terdekat</string>
 </resources>
