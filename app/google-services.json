@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "11165206516",
+    "project_id": "find-resto-871d6",
+    "storage_bucket": "find-resto-871d6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11165206516:android:618412c60acd749676dba1",
+        "android_client_info": {
+          "package_name": "com.example.myfindresto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnE015HZ6GnAk0y_yh9Zjkd61FqPGKZio"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -37,7 +38,9 @@ android {
 
     buildFeatures {
         buildConfig = true
+        viewBinding = true
     }
+
 }
 
 dependencies {
@@ -48,18 +51,19 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
 
-    //google map
-    implementation(libs.play.services.maps)
+    //firebase
+    implementation(platform(libs.firebase.bom))
+    implementation(libs.firebase.analytics)
+    implementation(libs.firebase.firestore)
+
+    //Glide
+    implementation(libs.glide)
+
+    //viewmodel
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+
+    //lokasi
     implementation(libs.play.services.location)
-
-    //map ktx
-    implementation(libs.maps.ktx)
-
-    //search resto
-    implementation(libs.places)
-
-    //markers
-    implementation(libs.android.maps.utils)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

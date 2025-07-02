@@ -56,51 +56,6 @@
             tools:ignore="MissingConstraints" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <LinearLayout
-        android:id="@+id/filterGroup"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginVertical="8dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:orientation="horizontal"
-        android:gravity="center"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/constraintLayout">
-
-        <Button
-            android:id="@+id/btn_rekomendasi"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:layout_marginEnd="10dp"
-            android:textSize="14sp"
-            android:textStyle="bold"
-            android:background="@drawable/button_select"
-            android:text="@string/rekomendasi"
-            android:textColor="@color/white"/>
-
-        <Button
-            android:id="@+id/btn_termurah"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:textSize="14sp"
-            android:textColor="@color/black"
-            android:text="@string/termurah"
-            android:textStyle="bold"
-            android:layout_marginEnd="10dp"
-            android:background="@drawable/button_unselect"/>
-
-        <Button
-            android:id="@+id/btn_terdekat"
-            android:layout_width="wrap_content"
-            android:layout_height="40dp"
-            android:textSize="14sp"
-            android:text="@string/terdekat"
-            android:textColor="@color/black"
-            android:background="@drawable/button_unselect"/>
-    </LinearLayout>
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_resto"
         android:layout_width="0dp"
@@ -112,5 +67,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/filterGroup" />
+        app:layout_constraintTop_toBottomOf="@+id/constraintLayout" />
 </androidx.constraintlayout.widget.ConstraintLayout>
